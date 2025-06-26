@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
-    <div className="w-full flex justify-between">
+    <div className="w-full flex justify-between items-center">
       <Link to="/">
         <h1 className="text-3xl text-orange-100 italic font-bold">
           LinkShortener

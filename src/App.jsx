@@ -4,7 +4,7 @@ import Header from "./components/common/Header";
 
 function App() {
   return (
-    <div className="w-full min-h-screen flex flex-col items-center justify-between bg-gradient-to-bl from-red-600 to-orange-400 p-8">
+    <div className="w-full min-h-screen flex flex-col items-center justify-start gap-8 bg-gradient-to-bl from-red-600 to-orange-400 p-8">
       <Header></Header>
       <Outlet></Outlet>
     </div>
